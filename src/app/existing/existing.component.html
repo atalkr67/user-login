@@ -1,0 +1,24 @@
+
+<div class="container mt-5" >
+    <div class="table-responsive">          
+    <table class="table table-bordered table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email ID</th>
+          <th>Contact No.</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="existingUsers.length > 0">
+        <tr *ngFor = "let user of existingUsers">
+          <td>{{user.username}}</td>
+          <td>{{user.useremail}}</td>
+          <td>{{user.usercontact}}</td>
+        </tr>
+      </tbody>    
+    </table>
+    <span class="col-12 float-left" *ngIf="existingUsers.length == 0">
+        <p class="mt-20" style="text-align: center">No record found</p>
+    </span>
+    </div>
+</div>

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.my-custom-snackbar {
+  //margin: 0 !important;
+  position: fixed;
+  align-content: center;
+  bottom: 60px;
+  background-color: rgb(170, 19, 19);
+  text-align: center !important;
+  margin: auto;
+  text-align: center;
+}

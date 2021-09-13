@@ -1,0 +1,43 @@
+  
+  #usr, #pwd, #useremail, #tel {
+    height: 100%;
+    border-top: 0px;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+  
+  .container {
+      display: grid;
+      align-items: center; /* left and right */
+      justify-content: center; /* up and down */
+  }
+  
+  #register-button {
+    margin-top: 40px;
+    background-color: rgb(0, 126, 131);
+    border: none;
+    border-radius: 50px;
+  }
+
+  .form-control.ng-touched.ng-invalid {
+    border: 1px 1px 1px 1px;
+    border:1px solid red;
+   }
+   .form-control.ng-touched.ng-valid {
+    border:1px solid green;
+   }
+
+   .forgot1 {
+    text-decoration: none; 
+    text-align: center;
+  }
+
+  .forgot-color {
+      text-decoration: none;
+      font-weight: 550; 
+      font-size: 13px;
+      color: rgb(0, 126, 131);
+  }
+  
+  

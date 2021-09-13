@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  image1 = '/assets/images/image1.jpg';
+
   title = 'user-login';
 }

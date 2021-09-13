@@ -1,0 +1,54 @@
+.left {
+    left: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+}
+
+.split1 {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+    .split {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .split1 {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .nav-bottom {
+        position: static;
+    }
+}
+
+.nav-bottom {
+    position: fixed;
+}
+
+.navbar-color {
+    font-family:Helvetica,Arial,sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+
+.font-Consolas {
+    font-family: Consolas;
+}
+
+.font-Georgia {
+    font-family: Georgia;
+}
